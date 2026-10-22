@@ -21,6 +21,10 @@ function Sidebar() {
         <NavLink to="/users" className={navItemClasses}>
           Users
         </NavLink>
+
+         <NavLink to="/reports" className={navItemClasses}>
+          Reports
+        </NavLink>
         
         <NavLink to="/settings" className={navItemClasses}>
           Settings
