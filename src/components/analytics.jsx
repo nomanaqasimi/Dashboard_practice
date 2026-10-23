@@ -23,7 +23,7 @@ function Analytics() {
       
     
       <UserBarChart data={monthlyUsersData} />
-      <TrafficPieChart data={trafficSourceData} />
+      <TrafficPieChart type="device traffic"data={trafficSourceData} />
       
     </div>
   );

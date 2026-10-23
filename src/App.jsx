@@ -2,6 +2,8 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MainLayout from './components/mainLayout';
 import Dashboard from './pages/dashboard';
+import Users from './pages/users';
+import Reports from './pages/reports';
 
 function App() {
   return (
@@ -17,10 +19,11 @@ function App() {
           
           {/* Default page (index) Dashboard hoga */}
           <Route index element={<Dashboard />} />
-          
-          {/* Baki pages
-          <Route path="users" element={<Users />} />
-          <Route path="settings" element={<Settings />} /> */}
+
+            <Route path="users" element={<Users />} />
+ 
+        
+          <Route path="reports" element={<Reports />} />
           
         </Route>
       </Routes>
